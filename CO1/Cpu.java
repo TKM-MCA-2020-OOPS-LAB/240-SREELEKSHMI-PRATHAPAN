@@ -1,15 +1,18 @@
-class Cpu {
+class Cpu  
+{
     int price;
 
     Cpu(int p) {
         this.price = p;
     }
 
-    class Processor {
+    class Processor 
+	{
         int cores;
         String manufacture;
 
-        Processor(int n, String m) {
+        Processor(int n, String m) 
+		{
             this.cores = n;
             this.manufacture = m;
         }
@@ -20,11 +23,13 @@ class Cpu {
         }
     }
 
-    static class Ram {
+    static class Ram 
+	{
         int memory;
         String manufacture;
 
-        Ram(int n, String m) {
+        Ram(int n, String m) 
+		{
             this.memory = n;
             this.manufacture = m;
         }
